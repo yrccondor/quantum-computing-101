@@ -230,7 +230,7 @@ export default defineConfig({
       linkLabel: '返回首页'
     },
     editLink: {
-      pattern: 'https://github.com/yrccondor/quantum-computing-101/edit/main/docs/:path',
+      pattern: 'https://github.com/yrccondor/quantum-computing-101/edit/master/docs/:path',
       text: '通过 Github 帮助编辑此页'
     }
   }
