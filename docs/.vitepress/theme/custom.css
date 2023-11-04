@@ -1,0 +1,23 @@
+.dark img.qcsvg, .dark svg.qcsvg {
+    filter: invert(0.9) brightness(1.1);
+}
+.dark img.qcsvgi, .dark svg.qcsvgi {
+    filter: invert(0.9) brightness(1.1);
+}
+img.qcsvg, svg.qcsvg {
+    max-width: 500px;
+    width: auto;
+    margin: 0 auto;
+}
+img.qcsvgi, svg.qcsvgi {
+    height: 1.75em;
+    width: auto;
+    display: inline-block;
+    vertical-align: top;
+}
+.katex-block {
+    overflow-y: auto;
+}
+.footnote-backref {
+    font-family: monospace;
+}

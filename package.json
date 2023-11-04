@@ -1,0 +1,19 @@
+{
+  "devDependencies": {
+    "vitepress": "^1.0.0-rc.24"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs",
+    "svg:build": "node ./tools/qcsvg/build.js"
+  },
+  "dependencies": {
+    "@traptitech/markdown-it-katex": "^3.6.0",
+    "js-md5": "^0.8.3",
+    "markdown-it-container": "^3.0.0",
+    "markdown-it-footnote": "^3.0.3",
+    "markdown-it-mathjax3": "^4.3.2",
+    "svgo": "^3.0.2"
+  }
+}
