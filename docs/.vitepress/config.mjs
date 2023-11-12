@@ -176,7 +176,8 @@ export default defineConfig({
         text: '量子计算',
         items: [
           { text: '量子计算简介', link: '/qc/intro' },
-          { text: '狄拉克符号及量子电路', link: '/qc/braket' }
+          { text: '狄拉克符号及量子电路', link: '/qc/braket' },
+          { text: '量子门', link: '/qc/gate' }
         ]
       },
       {

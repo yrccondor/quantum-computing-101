@@ -93,7 +93,13 @@ export default function qcmd_plugin(md) {
   md.renderer.rules.qcmd = (tokens, idx, options, env, self) => {
     const token = tokens[idx]
     const title = token.info.trim()
-    return `<img src="/qcsvg/${token.info}.svg?${md5(md.utils.escapeHtml(token.content)).slice(0, 8)}" class="qcsvg">\n`
+    let small = false
+    let realName = title
+    if (title.startsWith('small:')) {
+      small = true
+      realName = title.slice(6)
+    }
+    return `<img src="/qcsvg/${realName}.svg?${md5(md.utils.escapeHtml(token.content)).slice(0, 8)}" class="qcsvg${small ? ' qcsvg-small' : ''}">\n`
     // return '<pre' + self.renderAttrs(token) + '>' + md.utils.escapeHtml(token.content) + '</pre>\n'
   }
 }
