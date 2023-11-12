@@ -108,8 +108,8 @@ $$\begin{align*}
 
 $$\begin{align*}
     \qgh &\equiv \frac{1}{\sqrt{2}}\qm{1}{1}{1}{-1} \\
-    \qgx &\equiv \qm{0}{1}{1}{0}
+    \qgx &\equiv \qm{0}{1}{1}{0} \\
     \qgz &\equiv \qm{1}{0}{0}{-1}
 \end{align*}$$
 
-由于对态矢进行测量会导致量子坍缩 (Collapse)，因此我们使用 <img src="/meter.svg" class="qcsvgi"> 表示测量操作，以提示矢态已经改变。
+由于对态矢进行测量会导致量子坍缩，因此我们使用 <img src="/meter.svg" class="qcsvgi"> 表示测量操作，以提示矢态已经改变。
